@@ -1,4 +1,4 @@
 # Branden-sudo.github.io
 test
 
-<h><center>Hello!</center></h>
+<h1><center>Hello!</center></h1>
