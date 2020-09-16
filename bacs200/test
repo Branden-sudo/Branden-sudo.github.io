@@ -1,13 +1,14 @@
-<!DOCTYPE html>
-<html>
-   <head>
-      <title>HTML Image as link</title>
-   </head>
-   <body>
-      The following image works as a link:<br>
-      <a href="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-         <img alt="Qries" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-         width=150" height="70">
-      </a>
-   </body>
-</html>
+em	<em>emphasis</em>	emphasis	Emphasized text
+cite	<cite>cite</cite>	cite	Title of a work
+strong	<strong>strong</strong>	strong	Important text
+mark	<mark>mark</mark>	mark	Marked or highlighted text
+var	<var>variable</var>	variable	Definition of a variable in a computer program
+kbd	<kbd>keyboard</kbd>	keyboard	Keyboard input
+code	<code>code</code>	code	Computer code
+samp	<samp>sample</samp>	sample	Sample output from a computer
+b	<b>bold</b>	bold	Bold text
+i	<i>italic</i>	italic	Text of an alternate voice or word from another language
+u	<u>underline</u>	underline	Text that is rendered differently from normal text
+
+
+<img src="http://www.world-war-2-diaries.com/image-files/john-basilone-biography-fullsize.jpg" alt="Gunny" width="150" height="200"  />
