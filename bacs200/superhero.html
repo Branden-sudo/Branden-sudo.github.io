@@ -3,42 +3,62 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Superhero page</title>
+    <title>Superhero Gallery</title>
 
     <style>
         td {
             text-align: center;
             font-weight: bold;
+            padding: 12px 15px;
         }
 
         table {
             background-color: lightgray;
             color: black;
+            border-collapse: collapse;
+            margin: 25px 0;
+            min-width: 400px;
+            border-radius: 10px 10px 0 0;
+            overflow: hidden;
         }
 
         caption {
-            background-color: red;
+            background-color: #009879;
             color: yellow;
             font-weight: bold;
+            font-size: 2em;
         }
 
         th {
             background-color: gold;
-            color: navy
+            color: navy;
+            padding: 12px 15px;
         }
 
         td.center {
             background-color: white;
             color: black;
         }
+
+        tbody tr {
+            border-bottom: 1px solid #dddddd
+        }
+
+        tbody tr:nth-last-of-type(even) {
+            background-color: #f3f3f3
+        }
+
+        tbody tr:last-of-type {
+            border-bottom: 5px solid #009879
+        }
     </style>
 </head>
 
 
 <body>
-    <table style="width: 1080px; margin-left: auto; margin-right: auto;" border="1" cellspacing="1">
+    <table style="width: 1080px; margin-left: auto; margin-right: auto;">
         <caption>
-            <u>My five Superhearos</u>
+            <u>My Five Superheros</u>
         </caption>
 
 
@@ -73,8 +93,8 @@
         <tr>
             <td>Marshall </td>
             <td>Mighty Marshall</td>
-            <td><a href="Images/Marshall.jpg">
-                    <img src="Images/Marshall.jpg" alt="Marshall" width="200">
+            <td><a href="Images/Marshall_alpha.jpg">
+                    <img src="Images/Marshall_alpha.jpg" alt="Marshall" width="200">
                 </a></td>
             <td>Create flame heat with his paws & he can use his bubble pack to put out fires</td>
             <td>His own bad luck, mountain lions, & The loss of Mighty Meteor</td>
@@ -83,8 +103,8 @@
         <tr>
             <td>Rocky </td>
             <td>Mighty Rocky</td>
-            <td><a href="Images/Rocky.jpg">
-                    <img src="Images/Rocky.jpg" alt="Rocky" width="200">
+            <td><a href="Images/Rocky_alpha.png">
+                    <img src="Images/Rocky_alpha.png" alt="Rocky" width="200">
                 </a></td>
             <td>Create green energy tools with his paws</td>
             <td>The loss of Mighty Meteor</td>
