@@ -21,7 +21,6 @@ nav p {
     line-height: 55px;
     float: left;
     padding: 0px 20px;
-
 }
 
 nav ul {
@@ -67,4 +66,9 @@ nav ul li ul li a {
 
 nav ul li ul li a:hover {
     background-color: #f3f3f3;
+}
+
+nav h1 {
+    padding-top: 16px;
+    padding-left: 450px;
 }
