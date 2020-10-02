@@ -1,0 +1,18 @@
+
+
+
+
+<button type="button"  data-src="/bacs200/amuse.html">1</button>
+<button type="button"  data-src="/bacs200/educate.html">2</button>
+<button type="button"  data-src="/bacs200/index.html">3</button>
+
+<iframe id="iframe" src="http://localhost:8080/1"></iframe>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+<script>
+$('button').click(function() {
+    $('#iframe').attr('src', $(this).data('src'))
+})
+</script>
+
+
