@@ -1,0 +1,32 @@
+.tealtext {
+    color: lightseagreen;
+}
+
+.tealbg {
+    background-color: lightseagreen
+}
+
+.green {
+    color: #66cc00;
+}
+
+.greenbg {
+    background-color: #66cc00;
+}
+
+.imgsize {
+    height: 230px;
+    width: 230px;
+}
+
+.navfont {
+    font-size: 20px
+}
+
+.packagefont {
+    font-size: 15px;
+}
+
+.featuredfont {
+    font-size: 18px;
+}
